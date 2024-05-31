@@ -43,18 +43,7 @@
                   <button class="btndelete" (click)="OpenRemoveUserModal(item.id)"> <i class="fa fa-trash-o"></i> </button>
                 </td>
                </tr> -->
-               <tr>
-                <td>Akshay</td>
-                <td>Nayani</td>
-                <td>akshatbnayani@gmail.com</td>
-                <td>003</td>
-                <td>Backend</td>
-                <td style="color:#14c506;">active</td>
-                <td style="text-align: right;">
-                 <button class="btnedit" routerLink="../editUser/2"> <i class="fa fa-edit "></i> </button>
-                 <button class="btndelete" (click)="OpenRemoveUserModal(2)"> <i class="fa fa-trash-o"></i> </button>
-               </td>
-              </tr>
+               
                <tr *ngIf="result.length === 0">
                 <td colspan="6" style="text-align:center;width:100%;font-size:20px;color: red;"><b>No Data Found </b> </td>
               </tr>
